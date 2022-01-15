@@ -135,16 +135,32 @@ main h2 {
 }
 /* footer section style  */
 footer {
+  background: #0a0826;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 footer h3 {
+  color: #ffff;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 footer h5 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #d9dbe1;
 }
 .footer-menu {
+  margin-top: 20px;
 }
 .footer-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
 }
 .footer-menu li {
+  margin-right: 10px;
 }
 .footer-menu li a {
+  color: white;
 }
