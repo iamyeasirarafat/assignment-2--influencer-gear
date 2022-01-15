@@ -164,3 +164,64 @@ footer h5 {
 .footer-menu li a {
   color: white;
 }
+
+/* mobile screen query  */
+@media screen and (max-width: 667px) {
+  .container {
+    padding: 0 10px;
+    width: 100%;
+  }
+  nav {
+    justify-content: center;
+  }
+  .side-image {
+    display: none;
+  }
+
+  .logo h2 {
+    font-size: 20px;
+  }
+  .banner {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    text-align: center;
+    margin: 100px auto 0;
+    width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+    list-style: 0;
+  }
+  .button {
+    margin: 0 auto;
+  }
+  .products {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .card {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .card-image {
+    width: 100%;
+  }
+  .card-image img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .see-more {
+    margin-right: 30px;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image img {
+    width: 90%;
+  }
+}
+/* tablet screen query  */
+@media screen and (min-width: 668px) and (max-width: 991px) {
+}
