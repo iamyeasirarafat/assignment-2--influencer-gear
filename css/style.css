@@ -224,4 +224,43 @@ footer h5 {
 }
 /* tablet screen query  */
 @media screen and (min-width: 668px) and (max-width: 991px) {
+  .container {
+    padding: 0 10px;
+    width: 90%;
+  }
+  nav {
+    justify-content: center;
+  }
+  .logo h2 {
+    font-size: 30px;
+  }
+  .side-image {
+    display: none;
+  }
+  .banner {
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    text-align: center;
+    margin: 100px auto 0;
+    width: 100%;
+  }
+  .banner-content h1 {
+    font-size: 30px;
+    list-style: 0;
+  }
+  .button {
+    margin: 0 auto;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image img {
+    width: 80%;
+  }
+  .products {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+  }
 }
